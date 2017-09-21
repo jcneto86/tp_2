@@ -14,6 +14,9 @@
 		526AC6751F72DE59000E693C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526AC6731F72DE59000E693C /* LaunchScreen.storyboard */; };
 		526AC6801F72DE59000E693C /* cours_12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AC67F1F72DE59000E693C /* cours_12Tests.swift */; };
 		526AC68B1F72DE59000E693C /* cours_12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AC68A1F72DE59000E693C /* cours_12UITests.swift */; };
+		526AC6A21F72E76D000E693C /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 526AC69F1F72E76D000E693C /* front.png */; };
+		526AC6A31F72E76D000E693C /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 526AC6A01F72E76D000E693C /* penguin.png */; };
+		526AC6A41F72E76D000E693C /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 526AC6A11F72E76D000E693C /* panda.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		526AC6861F72DE59000E693C /* cours 12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cours 12UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526AC68A1F72DE59000E693C /* cours_12UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cours_12UITests.swift; sourceTree = "<group>"; };
 		526AC68C1F72DE59000E693C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526AC69F1F72E76D000E693C /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
+		526AC6A01F72E76D000E693C /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		526AC6A11F72E76D000E693C /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		526AC6691F72DE59000E693C /* cours 12 */ = {
 			isa = PBXGroup;
 			children = (
+				526AC6981F72E6DC000E693C /* image */,
 				526AC66A1F72DE59000E693C /* AppDelegate.swift */,
 				526AC66C1F72DE59000E693C /* ViewController.swift */,
 				526AC66E1F72DE59000E693C /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				526AC68C1F72DE59000E693C /* Info.plist */,
 			);
 			path = "cours 12UITests";
+			sourceTree = "<group>";
+		};
+		526AC6981F72E6DC000E693C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				526AC69F1F72E76D000E693C /* front.png */,
+				526AC6A11F72E76D000E693C /* panda.png */,
+				526AC6A01F72E76D000E693C /* penguin.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				526AC6751F72DE59000E693C /* LaunchScreen.storyboard in Resources */,
+				526AC6A21F72E76D000E693C /* front.png in Resources */,
+				526AC6A41F72E76D000E693C /* panda.png in Resources */,
 				526AC6721F72DE59000E693C /* Assets.xcassets in Resources */,
+				526AC6A31F72E76D000E693C /* penguin.png in Resources */,
 				526AC6701F72DE59000E693C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
